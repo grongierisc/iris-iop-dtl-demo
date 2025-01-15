@@ -1,5 +1,5 @@
 /// 
-Class Python.BP Extends Ens.BusinessProcessBPL
+Class ObjectScript.BP Extends Ens.BusinessProcessBPL
 {
 
 /// BPL Definition

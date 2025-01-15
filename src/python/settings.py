@@ -1,9 +1,11 @@
 from bo import BO
+from bp import BP
 
 from msg import Msg
 
 CLASSES = {
     'Python.BO': BO,
+    'Python.BP': BP,
 }
 
 SCHEMAS = [Msg]
@@ -20,6 +22,10 @@ PRODUCTIONS = [{
             {
                 "@Name": "Python.BP",
                 "@ClassName": "Python.BP",
+            },
+            {
+                "@Name": "ObjectScript.BP",
+                "@ClassName": "ObjectScript.BP",
             }
         ]
     }
